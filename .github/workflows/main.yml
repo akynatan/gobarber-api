@@ -29,7 +29,7 @@ jobs:
         run: yarn
         
       - name: Run build
-        run: build
+        run: yarn build
         
       - name: Copy dist to Digital OCean
         uses: appleboy/scp-action@master
